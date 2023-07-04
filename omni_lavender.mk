@@ -28,6 +28,7 @@ PRODUCT_NAME := omni_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
 PRODUCT_MANUFACTURER := Xiaomi
+TW_DEVICE_VERSION := By NotDheeraj06
 
 # enable stock zip packages flash
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
@@ -40,3 +41,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.build.date \
     ro.build.date.utc
+
+# encryption stiff
+KEEP_FORCED_ENCRYPTION := 1
+DONT_PATCH_ENCRYPTED_DEVICE := 1
+
