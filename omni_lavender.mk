@@ -41,8 +41,3 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.build.date \
     ro.build.date.utc
-
-# encryption stiff
-TW_KEEP_FORCED_ENCRYPTION := 1
-TW_DONT_PATCH_ENCRYPTED_DEVICE := 1
-
