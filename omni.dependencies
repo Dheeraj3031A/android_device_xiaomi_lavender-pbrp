@@ -1,8 +1,8 @@
 [
     {
         "remote": "github",
-        "repository": "Ancient-Project/android_kernel_xiaomi_lavender",
+        "repository": "projects-nexus/nexus_kernel_xiaomi_lavender",
         "target_path": "kernel/xiaomi/lavender",
-        "revision": "Q"
+        "revision": "13"
     }
 ]
