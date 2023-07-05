@@ -71,7 +71,7 @@ BOARD_RAMDISK_OFFSET     := 0x01000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-#TARGET_PREBUILT_KERNEL := device/xiaomi/lavender/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/xiaomi/lavender/prebuilt/Image.gz-dtb
 ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
   TARGET_KERNEL_SOURCE := kernel/xiaomi/lavender
@@ -152,9 +152,6 @@ TW_INCLUDE_FUSE_EXFAT := true
 
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
-
-#PBRP
-PB_DISABLE_DEFAULT_TREBLE_COMP := true
 
 # ---- various build issues ---- #
 ALLOW_MISSING_DEPENDENCIES := true
