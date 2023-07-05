@@ -3,6 +3,6 @@
         "remote": "github",
         "repository": "projects-nexus/nexus_kernel_xiaomi_lavender",
         "target_path": "kernel/xiaomi/lavender",
-        "revision": "13"
+        "revision": "13" 
     }
 ]
